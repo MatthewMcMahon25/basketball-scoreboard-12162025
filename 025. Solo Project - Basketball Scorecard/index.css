@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "CursedTimerUlil";
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+}
+
+h3 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B244A;
+    height: 385px;
+    width: 575px;
+}
+
+.title {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    line-height: 36px;
+    letter-spacing: 0%;
+    margin-top: 68px;
+}
+
+.display {
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.score {
+    color: #F94F6D;
+    font-family: CursedTimerUlil;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.point-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    gap: 5px;
+}
+
+.point-container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    border-width: 2px;
+    border: 2px solid #9AABD8;
+}
+
+.point {
+    color: #9AABD8;
+    width: 30px;
+    height: 26px;
+    font-family: CursedTimerUlil;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;;
+}
